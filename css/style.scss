@@ -1,0 +1,27 @@
+.top-bar{
+    h1{
+        font-family: "Indie Flower", cursive;
+        color:peru;
+        text-align: center;
+    }
+
+  
+
+      
+    nav ul {
+       display: flex;
+       width: 100%;
+       
+    }
+    
+    li{
+        list-style-type: none;
+        flex-grow: 1;
+    }
+    a{
+        font-family: "IBM Plex Mono", monospace;
+        color: gray;
+        text-decoration: none;
+        
+    }
+}
