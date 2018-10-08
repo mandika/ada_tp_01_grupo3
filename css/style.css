@@ -1,3 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  display: block;
+}
+header nav ul {
+  list-style: none;
+}
+header nav .link {
+  padding: 0.5rem 1rem;
+  font-family: "IBM Plex Mono", monospace;
+  color: gray;
+  text-decoration: none;
+}
+header nav .link:hover {
+  color: peru;
+}
+header nav .title {
+  font-family: "Indie Flower", cursive;
+  color: peru;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+  font-weight: bold;
+}
+header nav .navigation-list {
+  display: flex;
+  justify-content: center;
+}
+header nav .navigation-list .navigation-item .link-home {
+  color: peru;
+  padding: 0.5rem 1rem;
+  font-family: "IBM Plex Mono", monospace;
+  text-decoration: none;
+}
+header nav .dropdown-container {
+  position: relative;
+}
+header nav .dropdown-container .dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+}
+header nav .dropdown-container .dropdown-content .link {
+  background-color: aliceblue;
+  padding: 0.5rem 1rem;
+  display: block;
+  margin-left: 0;
+}
+header nav .dropdown-container:hover .dropdown-content {
+  display: block;
+}
+
+.top-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 10rem;
+}
+.menu .menu-link {
+  margin-right: 0.5rem;
+}
+.menu .menu-link .top-link {
+  font-family: "IBM Plex Mono", monospace;
+  color: black;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.menu .menu-link .top-link-grey {
+  color: grey;
+  font-family: "IBM Plex Mono", monospace;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
 .top-bar h1 {
   font-family: "Indie Flower", cursive;
   color: peru;

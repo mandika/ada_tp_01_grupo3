@@ -1,0 +1,51 @@
+header nav .link {
+  list-style-type: none;
+  font-family: "IBM Plex Mono", monospace;
+  color: gray;
+  text-decoration: none;
+}
+header nav .link:first-child {
+  color: peru;
+}
+header nav .title {
+  font-family: "Indie Flower", cursive;
+  color: peru;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+}
+header nav .navigation-list {
+  display: flex;
+  justify-content: center;
+}
+header nav .navigation-list .dropdown-container {
+  position: relative;
+}
+header nav .navigation-list .dropdown-container .link:second-child {
+  display: inline-block;
+}
+header nav .navigation-list .dropdown-container .dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+}
+header nav .navigation-list .dropdown-container .dropdown-content:hover .dropdown-content {
+  display: block;
+}
+header nav .dropdown-content .link {
+  width: 100%;
+  list-style-type: none;
+  font-family: "IBM Plex Mono", monospace;
+  color: gray;
+  text-decoration: none;
+}
+
+.top-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=_receta.css.map */
