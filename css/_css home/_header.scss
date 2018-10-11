@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header nav{
+    display: block;
+    ul{
+        list-style: none;
+    }
+    .link {
+        padding: 0.5rem 1rem;
+        font-family: "IBM Plex Mono", monospace;
+        color: gray;
+        text-decoration: none;
+        &:hover{
+            color: peru;
+        }
+    }
+    .title{
+        font-family: "Indie Flower", cursive;
+        color:peru;
+        text-align: center;
+        font-size: 2rem;
+        margin: 1rem;
+        font-weight: bold;
+    }
+    .navigation-list {
+        display: flex;
+        justify-content: center;
+        .navigation-item{
+            .link-home{
+                color: peru;
+                padding: 0.5rem 1rem;
+                font-family: "IBM Plex Mono", monospace;
+                text-decoration: none;
+            }
+        }
+    }
+    .dropdown-container{
+        position: relative;
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            z-index: 100;
+            width: 100%;
+            .link{
+                background-color: aliceblue;
+                padding: 0.5rem 1rem;
+                display: block;
+                margin-left: 0;
+            }
+        }
+        &:hover .dropdown-content {
+            display: block;
+        }
+    }
+}
+.top-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 10rem;
+    .menu-link{
+        margin-right: 0.5rem;
+        .top-link{
+            font-family: "IBM Plex Mono", monospace;
+            color: black;
+            text-decoration: none;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+        .top-link-grey{
+            color:grey;
+            font-family: "IBM Plex Mono", monospace;
+            text-decoration: none;
+            font-size: 0.7rem;
+        }
+    }
+}
+
+
+
+.container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+    .main {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin:0;
+    padding:0;
+    
+               
+        .imagen img{ 
+        width: 350px;
+        height: 450px;
+        margin: 4px;
+        text-align:center;
+                
+        }
+        .imagen {
+            margin: 0;
+            overflow: hidden;
+            float: left;
+            position: relative;
+        }
+        .imagen a {
+            text-decoration: none;
+            float: left;
+        }
+        .imagen a:hover {
+            cursor: pointer;
+        } 
+    }
+}
