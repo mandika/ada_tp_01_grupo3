@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 @charset "UTF-8";
+=======
+>>>>>>> 9a232b1b55f31c98effc437b3247426cb67d304d
 body {
   margin: 0;
   padding: 0;
@@ -76,7 +79,10 @@ header nav .dropdown-container:hover .dropdown-content {
 }
 .menu .menu-link {
   margin-right: 0.5rem;
+<<<<<<< HEAD
   list-style: none;
+=======
+>>>>>>> 9a232b1b55f31c98effc437b3247426cb67d304d
 }
 .menu .menu-link .top-link {
   font-family: "IBM Plex Mono", monospace;
@@ -85,14 +91,19 @@ header nav .dropdown-container:hover .dropdown-content {
   font-size: 0.7rem;
   font-weight: bold;
 }
+<<<<<<< HEAD
 .menu .menu-link-grey {
   list-style: none;
 }
 .menu .menu-link-grey .top-link-grey {
+=======
+.menu .menu-link .top-link-grey {
+>>>>>>> 9a232b1b55f31c98effc437b3247426cb67d304d
   color: grey;
   font-family: "IBM Plex Mono", monospace;
   text-decoration: none;
   font-size: 0.7rem;
+<<<<<<< HEAD
   font-weight: bold;
 }
 
@@ -299,6 +310,10 @@ h2 {
     font-size: 20px;
   }
 }
+=======
+}
+
+>>>>>>> 9a232b1b55f31c98effc437b3247426cb67d304d
 .top-bar h1 {
   font-family: "Indie Flower", cursive;
   color: peru;
