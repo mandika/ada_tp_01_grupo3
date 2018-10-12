@@ -1,8 +1,36 @@
+.icon-arrow {
+    display: none;
+}
+
 footer {
+    border-bottom: 1px solid gray;
+    padding: 15px;
     display: flex;
     justify-content: space-around;
     div {
         font-family: "IBM Plex Mono", monospace;
         color: gray;
+        .link {
+            margin-left: 4px;
+        }
     }
  }
+
+ @media(max-width:800px) {
+     .link {
+         display: none;
+     }
+     .icon-arrow {
+        color: #fa7855;
+        bottom: 15px;
+        display: inline-block;
+            .fa-arrow-circle-up {
+                font-size: 40px;
+                position: absolute;
+                z-index: 1;
+                text-decoration: none;
+                margin-left: 50%;
+                color: #fa7855;
+            }
+        }
+    }
