@@ -141,45 +141,47 @@ header nav .dropdown-container:hover .dropdown-content {
 .contenedor .container .container-2 img {
   border-radius: 20px;
   width: 350px;
-  height: 225px;
-  margin: 0;
+  height: 250px;
+  margin: 15px;
 }
-
-.container-multimedia {
+.contenedor .container-multimedia {
   display: flex;
   justify-content: center;
   flex-direction: row;
   margin-right: 150px;
-  margin-left: 180px;
+  margin-left: 200px;
   width: 900px;
 }
-.container-multimedia .multimedia {
+.contenedor .container-multimedia .multimedia {
   display: flex;
+  margin-top: 15px;
 }
-.container-multimedia .perfil {
+.contenedor .container-multimedia .perfil {
   text-align: center;
   margin: 0;
   width: 450px;
 }
-.container-multimedia .perfil .sobre p {
+.contenedor .container-multimedia .perfil .sobre p {
   margin-left: 10px;
-  width: 450px;
-  background-color: peru;
+  width: 485px;
+  background-color: pink;
   font-family: "IBM Plex Mono", monospace;
 }
-.container-multimedia .perfil .foto {
+.contenedor .container-multimedia .perfil .foto {
   border-radius: 100px;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
-.container-multimedia .contenido {
-  width: 450px;
-  height: 315px;
+.contenedor .container-multimedia .perfil .contenido {
+  width: 485px;
+  height: 300px;
+  
 }
-.container-multimedia .contenido .text {
+.contenedor .container-multimedia .perfil .contenido .text {
   color: grey;
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.7rem;
+  margin: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

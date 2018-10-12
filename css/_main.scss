@@ -1,0 +1,85 @@
+.contenedor{
+display: flex;
+flex-direction: column;
+width: 100%;
+.container{
+    display: flex;
+    width: 100%;
+         .container-2{
+            display: flex;
+            width: 100%;
+            margin-left:0;
+            padding:0;
+            justify-items: center;
+        
+                img{
+                border-radius: 20px;
+                width: 250px;
+                height: 225px;
+                margin: 0;
+                }
+            }   
+
+
+
+
+
+
+    // .container{
+    //     display: flex;
+    //     width: 100%;
+    //        .container-2 img {
+    //         display: flex;
+    //         margin-left:0;
+    //         padding:0;
+    //         justify-content: center;
+    //         border-radius: 120px;
+    //         width: 350px;
+    //         height: 250px;
+            
+    //         }
+           
+    // }
+
+    .container-multimedia{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 150px;
+    margin-left: 200px;
+    width:900px;
+   
+        .multimedia{
+        display: flex;
+            
+        }   
+        .perfil{
+            text-align: center;
+            margin:0;
+            width: 450px;
+
+            .sobre p{
+            margin-left: 10px;
+             width: 450px;
+             background-color:pink;
+             font-family: "IBM Plex Mono", bold;
+            } 
+            .foto{
+                border-radius: 100px;
+                width: 100px;
+                height: 100px;
+            }
+      
+            .contenido{
+            width: 450px;
+            height: 300px;
+             .text{
+                color:grey;
+                font-family: "IBM Plex Mono", monospace;
+                font-size: 0.7rem;
+                }
+            }
+        }
+
+    }
+}    
