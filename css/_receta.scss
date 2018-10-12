@@ -57,21 +57,22 @@ header nav{
     }
 }
 .top-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: auto;
     height: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 4rem;
     margin-right: 4rem;
+    .img-banner{
+      width: 100%;
+    }
 }
 .menu{
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    width: 100%;
     margin-left: 10rem;
+    margin-bottom: 3rem;
     .menu-link{
         margin-right: 0.5rem;
         list-style: none;
@@ -189,8 +190,11 @@ header nav{
       .comentario, .cita, .autor-cita {
         padding: 10px;
       }
-  .ingredientes-l ul {
-    list-style: none;
+      .ingredientes-l{
+      margin-top: 1rem;
+      margin-left: 2rem;
+          ul {
+          list-style: none;
           li::before {
             content: "\2022";
             color: #fc7850;
@@ -198,8 +202,9 @@ header nav{
             display: inline-block;
             width: 1em;
             margin-left: -2em;
-  }
-}
+            }
+          }
+      }
 .vl {
     border-left: 2px solid #fc7850;
     height: 100px;
@@ -213,12 +218,15 @@ header nav{
             }
     }
     .top-img{
-        width: 100%;
         margin: 1rem;
+        .img-banner{
+          width: 100%;
+        }
     }
     .menu{
         margin-left: 2rem;
-        .menu-link{
+        margin-bottom:0.5rem;
+          .menu-link{
             .top-link{
                 font-size: 0.8rem;
             }
@@ -255,15 +263,26 @@ header nav{
         }
     }
 
+.pionono {
+  width: 88%;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
     .conteiner-a {
       flex-direction: column;
     }
     .conteiner-b {
       width: 100%;
+        .like-coment-share {
+        margin-right: 30px;
+}
     }
     .ingredientes {
       margin-top: 60px;
     }
+    .ingredientes-l {
+    margin-top: 3rem;
+  }
     .redes-sociales {
       font-size: 45px;
       flex-direction: row;
