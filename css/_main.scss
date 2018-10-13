@@ -31,7 +31,10 @@ width: 100%;
    
     .multimedia{
         display: flex;
-       
+       flex-direction: column;
+       font-family: "IBM Plex Mono", monospace;
+       color: grey;
+       font-size: 15px;
         
     }
     .perfil{
