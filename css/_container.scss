@@ -1,0 +1,111 @@
+.icon-arrow {
+    display: none;
+ }
+ 
+ footer {
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    div {
+        font-family: "IBM Plex Mono", monospace;
+        color: gray;
+        .link {
+            margin-left: 4px;
+        }
+    }
+ }
+ 
+ @media(max-width:800px) {
+     .link {
+         display: none;
+     }
+     .icon-arrow {
+        color: #fa7855;
+        bottom: 15px;
+        display: inline-block;
+            .fa-arrow-circle-up {
+                font-size: 40px;
+                position: absolute;
+                z-index: 1;
+                text-decoration: none;
+                margin-left: 50%;
+                color: #fa7855;
+            }
+        }
+    }
+ .nota1 {
+    
+    padding: 15px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+ }
+ 
+ .nota2 {
+    
+ }
+ .container-footer{
+     display: flex;
+     justify-content: center;
+}
+ .posts {
+    font-family: "IBM Plex Mono", monospace;
+    margin-right: 350px;
+    width: 560px;
+    img {
+        width: 45%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .text {
+        width: 48%;
+        display: inline-block;
+        span {
+            color: gray;
+            font-size: 13px;
+        }
+        .titulo {
+            color: black;
+            font-size: 25px;
+        }
+        .contenido {
+            color: gray;
+            font-size: 15px;
+        }
+        button {
+            background-color: rgb(255, 195, 195);
+            color: black;
+            font-size: 15px;
+            border-radius: 5px;
+            font-family: "IBM Plex Mono", monospace;
+            border: none;
+            width: 150px;
+            height: 35px;
+        }
+    }
+    i {
+        color: gray;
+        font-size: 13px;
+        margin: 4px;
+    }
+ }
+
+ 
+ @media(max-width:800px){
+    .posts {
+        width: 100%;
+        margin: 0;
+        .nota2{
+            display: none;
+        }
+        .nota1{
+            img{
+                display: none;
+            }
+            .text{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+ }
