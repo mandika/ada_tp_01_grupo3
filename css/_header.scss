@@ -100,31 +100,84 @@ header nav{
 
     .main {
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     margin:0;
     padding:0;
     
                
-        .imagen img{ 
-        width: 350px;
-        height: 450px;
-        margin: 4px;
-        text-align:center;
-                
-        }
-        .imagen {
-            margin: 0;
-            overflow: hidden;
-            float: left;
+        .imagen { 
+            width: 24%;
+            
             position: relative;
+            
+            
+             img{ 
+                 width: 100%;
+                 height: auto;
+                
+                text-align: center;
+                }
+
+            &:hover {
+              cursor: pointer;
+            }
+        
+            .overlay {
+              position: absolute;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+              bottom: 0;
+              height: 100%;
+              width: 100%;
+              opacity: 0;
+              transition: .5s ease;
+              
+        
+              &:hover {
+                opacity: 1;
+                cursor: pointer;
+                height: 30%;
+              }
+        
+              .breadcrumb-pic {
+                display: flex;
+                justify-content: center;
+                background-color: peru;
+                opacity: 0.5;
+                width: 100%;
+                height: 25%;
+                }
+        
+              .date {
+                color: white;
+                display: flex;
+                align-items: center;
+        
+                &:after {
+                  margin: 0 1px;
+                  content: '|'
+                }
+        
+                &:last-of-type {
+                  &::after {
+                    content: ''
+                  }
+                }
+              }
+        
+              .text-pic {
+                display: flex;
+                color: white;
+                               
+                background-color: peru;
+                opacity: 0.5;
+                width: 100%;
+                height: 25%;
+              }
+            }
         }
-        .imagen a {
-            text-decoration: none;
-            float: left;
-        }
-        .imagen a:hover {
-            cursor: pointer;
-        } 
     }
 }
